@@ -34,6 +34,7 @@ display: none;
         color: #29251f;
         background-color: white;
         width: max-content;
+        z-index: 10;
     }
 
 }
