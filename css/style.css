@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+    color-scheme: light;
+    --paper: #f7f4ed;
+    --surface: #fffdf8;
+    --ink: #29251f;
+    --muted: #746d60;
+    --line: #e1dacd;
+    --gold: #9a6925;
+    --deep: #211e18;
+    --cream: #eee7d9;
+}
+.dashboard i {
+   
+    display: none;
+}
+@media (max-width: 400px) {
+    .dashboard i {
+   font-size: 20px;
+    color: white;
+    display: initial;
+
+    }
+    nav{
+display: none;
+    }
+    .dashboard:hover nav{
+        display: initial;
+        position: absolute;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        color: #29251f;
+        background-color: white;
+        width: max-content;
+    }
+
+}

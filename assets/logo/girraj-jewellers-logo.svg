@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 150">
+<g fill="none" stroke="#d8aa4a" stroke-width="4">
+  <path d="M52 43 L66 18 L82 33 L98 18 L112 43 L103 43 L103 52 L61 52 L61 43 Z"/>
+  <path d="M61 53 L103 53 L103 98 L82 119 L61 98 Z"/>
+</g>
+<text x="75" y="88" text-anchor="middle" font-family="Georgia, serif" font-size="43" font-weight="700" fill="#d8aa4a">GJ</text>
+<text x="132" y="67" font-family="Georgia, serif" font-size="43" font-weight="700" letter-spacing="2" fill="#f3e6c6">GIRRAJ JEWELLERS</text>
+<text x="133" y="98" font-family="Arial, sans-serif" font-size="17" letter-spacing="5" fill="#d8c49a">GOLD  |  SILVER  |  TRUST SINCE FOREVER</text>
+</svg>
