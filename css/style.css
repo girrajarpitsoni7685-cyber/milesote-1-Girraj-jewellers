@@ -38,3 +38,10 @@ display: none;
     }
 
 }
+eyebrow {
+    margin: 0 0 8px;
+    color: #d7a849;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3.5px
+}
