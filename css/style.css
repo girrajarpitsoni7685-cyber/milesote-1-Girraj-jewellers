@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=DM+Sans:wght@400;500;600;700&display=swap');
 
 :root {
     color-scheme: light;
@@ -12,7 +13,7 @@
     --cream: #eee7d9;
 }
 .dashboard i {
-   
+  
     display: none;
 }
 @media (max-width: 400px) {
@@ -20,6 +21,7 @@
    font-size: 20px;
     color: white;
     display: initial;
+     padding: 0 10px;
 
     }
     nav{
@@ -44,4 +46,8 @@ eyebrow {
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 3.5px
+}
+
+.Cormorant{
+    font-family: "Cormorant Garamond";
 }

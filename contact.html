@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Girraj Jewellers</title>
+    <meta name="description"
+        content="Discover gold, silver and custom jewellery at Girraj Jewellers in Bonli, Rajasthan.">
+    <title>Girraj Jewellers | Jewellery made to be treasured</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body class="min-h-screen">
+    <header class="bg-(--deep) text-[#f3e6c6]">
+        <div class="mx-auto flex max-w-7xl  items-center gap-4 lg:px-4 lg:py-3 justify-between  px-1 py-2">
+
+            <a href="index.html" aria-label="Girraj Jewellers home">
+                <img class="h-auto w-[200px] lg:w-[400px] md:w-[270px]" src="assets/logo/girraj-jewellers-logo.svg"
+                    alt="Girraj Jewellers, gold, silver and trust">
+            </a>
+
+            <div class="dashboard relative ">
+                <i class="fa-solid fa-circle-user"></i>
+
+                <nav
+                    class=" flex w-full flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm sm:w-auto sm:gap-x-7">
+
+                    <a aria-current="page" class="nav-link" href="home.html">Home</a>
+                    <a class="nav-link" href="services.html">Services</a>
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main id="main" class="bg-(--surface) mb-[30px]">
+        <section id="upper" class="bg-(--cream) px-8 py-20 lg:px-10 lg:py-20 ">
+            <div class="max-w-7xl mx-auto">
+                <span class="text-(--gold) text-[12px] font-serif font-semibold">We'd love to hear from you
+                </span>
+                <h1 class="text-[30px] lg:text-[72px]  Cormorant leading-6 lg:leading-[78px] font-semibold">Tell us what
+                    <span class="block text-(--gold)"> you're looking for</span>
+                </h1>
+                <p class="text-[20px]  mt-5 text-(--muted) Cormorant">Ask about a piece, share an idea for a custom
+                    order,
+                    or plan a visit to Girraj Jewellers in Bonli.</p>
+            </div>
+        </section>
+
+        <section id="lower" class=" max-w-7xl mt-[60px] h-max mx-auto grid grid-cols-2">
+            <div>
+                <p class="text-(--gold) text-xs">SEND AN ENQUIRY</p>
+                <h2 class="Cormorant text-5xl">What can we help with</h2>
+                <form action="" class="mt-8 grid max-w-xl gap-6">
+                    <div class="max-w-full">
+                        <label for="name" class="mb-0 block">
+                            Your Name*
+                        </label>
+                        <input type="text" required id="name" class="border border-gray-300 w-full min-h-12">
+                    </div>
+                    <div>
+                        <label for="phone no">Phone Number* </label>
+                        <input type="tel" required id="phone no" class="border border-gray-300 w-full min-h-12 ">
+                    </div>
+                    <div>
+                        <label for="interested" class="block"> What are you interested in?</label>
+                        <select name="interested in" required aria-placeholder="choose a service" id="interested"
+                            class="border border-gray-300 w-full min-h-12">
+
+                            <option value="sjdbfkljbsadf">Choose a service</option>
+                            <option value="sjdbfkljbsadf">Gold Jewellery</option>
+                            <option value="sjdbfkljbsadf">Silver Jewellery</option>
+                            <option value="sjdbfkljbsadf">Daimond Jewellery</option>
+                            </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message" class="block">Your Message*</label>
+                        <textarea name="message" id="message" class="border border-gray-300 w-full min-h-40"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="border border-gray-950 bg-(--deep) text-[#f3e6c6] max-w-fit lg:px-3 lg:py-2">Send Enquiry
+                        → </button>
+                </form>
+            </div>
+            <!-- left side -->
+            <div class="flex flex-col lg:gap-5">
+                <span class="text-(--gold)"> VISIT THE SHOP</span>
+                <h2 class="Cormorant text-5xl">GIRRAJ JEWELLERS</h2>
+                <p class="text-(--muted)">Bonli, Sawai Madhopur </p>
+                <button class="Cormorant text-(--gold) border border max-w-fit lg:px-5 lg:py-2"> <a
+                        href="https://www.google.com/maps/place/%E0%A4%AC%E0%A5%8C%E0%A4%82%E0%A4%B2%E0%A5%80,+Rajasthan+322023/@26.3293822,76.1966959,14z/data=!3m1!4b1!4m6!3m5!1s0x396e0e310d809875:0xf2e1ac7968d3ac!8m2!3d26.3293841!4d76.2172955!16s%2Fg%2F11bw2mhg48?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D">Get
+                        Direction ↗</a></button>
+            </div>
+
+        </section>
+    </main>
+    <footer class="bg-(--deep) px-5 pb-8 text-sm text-[#f3e6c6]/70 sm:px-8">
+        <div
+            class="mx-auto flex max-w-7xl flex-col gap-4 border-t border-white/15 pt-6 sm:flex-row sm:items-center sm:justify-between">
+            <p>&copy; <span>Girraj Jewellers</span> · Owned by Girraj Prasad Soni</p>
+            <nav aria-label="Footer navigation" class="flex flex-wrap gap-x-5 gap-y-2">
+                <a href="home.html"> Home</a><a class="nav-link"
+                    href="services.html">Services</a><a class="nav-link" href="gallery.html">Gallery</a></nav>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
